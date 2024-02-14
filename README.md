@@ -4,5 +4,6 @@
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
 <p><strong>Language</strong></p>
 <div>
-  <img src="
+  <img src="https://img.shields.io/badge/-0040ab?style=flat-square&logo=C&logoColor=A8B9CC"/>
+  <img src="https://img.shields.io/badge/Python-f3ff12?style=flat-square&logo=Python&logoColor=3776AB"/>
 </div>
