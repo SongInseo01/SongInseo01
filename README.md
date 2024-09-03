@@ -13,4 +13,4 @@
 ![Inseo's GitHub stats](https://github-readme-stats.vercel.app/api?username=SongInseo01&show_icons=true&theme=dracula)
 
 
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SongInseo01&layout=compact&theme=dracula)
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SongInseo01&layout=compact)
