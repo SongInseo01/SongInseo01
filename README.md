@@ -5,5 +5,7 @@
   <img src="https://img.shields.io/badge/C++-d6d6d6?style=flat-square&logo=cplusplus&logoColor=00599C"/>
   <img src="https://img.shields.io/badge/Python-f3ff12?style=flat-square&logo=Python&logoColor=3776AB"/>
 </div>
-
+  
+<div>
 ![Inseo's GitHub stats](https://github-readme-stats.vercel.app/api?username=SongInseo01&show_icons=true&theme=dracula)
+</div>
