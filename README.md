@@ -8,6 +8,6 @@
   
 <br></br>
 ## 🔨 Stack 🔨
-<div style="display:flex; flex-direction:column; align-items:flex-start;"></dic>
+<div style="display:flex; flex-direction:column; align-items:flex-start;"></div>
   ![Inseo's GitHub stats](https://github-readme-stats.vercel.app/api?username=SongInseo01&show_icons=true&theme=dracula)
 
