@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Python-f3ff12?style=flat-square&logo=Python&logoColor=3776AB"/>
 </div>
 <br></br>
+
 ## 📈 GitHub Stats 📈
 <div style="display:flex; flex-direction:column; align-items:flex-start;"></div>
 
