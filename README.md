@@ -1,4 +1,4 @@
-<h3 align="center">✨ Tech Stack ✨</h3>
+<h3 align="center">🛠️ Language 🛠️</h3>
 
 <div style="display:flex; flex-direction:column; align-items:flex-start;"></div>
 
