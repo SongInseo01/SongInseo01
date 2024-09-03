@@ -6,6 +6,6 @@
   <img src="https://img.shields.io/badge/Python-f3ff12?style=flat-square&logo=Python&logoColor=3776AB"/>
 </div>
   
-<br>
+<br></br>
   ![Inseo's GitHub stats](https://github-readme-stats.vercel.app/api?username=SongInseo01&show_icons=true&theme=dracula)
 
