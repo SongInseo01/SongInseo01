@@ -1,7 +1,7 @@
 name: Update README
 
 on:
-  workflow_dispatch:  # 수동 실행 기능 추가
+  workflow_dispatch:
   schedule:
     - cron: '0 */6 * * *'  # 6시간마다 업데이트 (UTC 기준)
 
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Node.js 버전 경고 해결
 
       - name: Generate GitHub Stats
         run: curl -o README.md https://raw.githubusercontent.com/SongInseo01/SongInseo01/main/README.md
@@ -20,5 +20,5 @@ jobs:
           git config --global user.name 'SongInseo01'
           git config --global user.email 'z8086486@gachon.ac.kr'
           git add README.md
-          git commit -m "Update GitHub Stats"
+          git commit -m "Update GitHub Stats" || echo "No changes to commit"
           git push
