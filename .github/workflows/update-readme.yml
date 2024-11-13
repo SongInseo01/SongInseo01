@@ -17,10 +17,11 @@ jobs:
 
       - name: Commit and push changes
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_GIT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'SongInseo01'
           git config --global user.email 'z8086486@gachon.ac.kr'
+          git remote set-url origin https://x-access-token:${{ secrets.TOKEN_GIT }}@github.com/SongInseo01/SongInseo01.git
           git add README.md
           git commit -m "Update GitHub Stats" || echo "No changes to commit"
           git push
