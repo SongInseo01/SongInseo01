@@ -16,6 +16,8 @@ jobs:
         run: curl -o README.md https://raw.githubusercontent.com/SongInseo01/SongInseo01/main/README.md
 
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GIT }}
         run: |
           git config --global user.name 'SongInseo01'
           git config --global user.email 'z8086486@gachon.ac.kr'
