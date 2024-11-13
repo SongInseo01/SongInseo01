@@ -1,27 +1,27 @@
-name: Update README
+# name: Update README
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 */6 * * *'  # 6시간마다 업데이트 (UTC 기준)
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron: '0 */6 * * *'  # 6시간마다 업데이트 (UTC 기준)
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+# jobs:
+#   update-readme:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v3
 
-      - name: Generate GitHub Stats
-        run: echo "Updating GitHub Stats" >> README.md
+#       - name: Generate GitHub Stats
+#         run: echo "Updating GitHub Stats" >> README.md
 
-      - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name 'SongInseo01'
-          git config --global user.email 'z8086486@gachon.ac.kr'
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/SongInseo01/SongInseo01.git
-          git add README.md
-          git commit -m "Update GitHub Stats" || echo "No changes to commit"
-          git push origin main -v
+#       - name: Commit and push changes
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         run: |
+#           git config --global user.name 'SongInseo01'
+#           git config --global user.email 'z8086486@gachon.ac.kr'
+#           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/SongInseo01/SongInseo01.git
+#           git add README.md
+#           git commit -m "Update GitHub Stats" || echo "No changes to commit"
+#           git push origin main -v
