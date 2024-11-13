@@ -1,8 +1,9 @@
 name: Update README
 
 on:
+  workflow_dispatch:  # 수동 실행 기능 추가
   schedule:
-    - cron: '0 */6 * * *'  # 12시간마다 업데이트 (UTC 기준)
+    - cron: '0 */6 * * *'  # 6시간마다 업데이트 (UTC 기준)
 
 jobs:
   update-readme:
